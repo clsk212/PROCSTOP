@@ -85,7 +85,7 @@ def extract_df_ravdess(raw_data_path, output_path):
     print(f"Mapped data saved to {output_path}")
     return df_mapped
 
-def process_videos(df, base_path):
+def process_videos(df, raw_data_path):
     """
     Processes videos by extracting audio and saving the video without audio.
     Updates and returns the DataFrame with paths to the processed files.
@@ -99,8 +99,8 @@ def process_videos(df, base_path):
     """
 
     # Define the output directories
-    audio_dir = os.path.join(base_path, 'data', 'audio')
-    video_dir = os.path.join(base_path, 'data', 'video')
+    audio_dir = os.path.join(raw_data_path, 'data', 'audio')
+    video_dir = os.path.join(raw_data_path, 'data', 'video')
 
     # Ensure directories exist
     os.makedirs(audio_dir, exist_ok=True)
@@ -112,7 +112,7 @@ def process_videos(df, base_path):
 
     # Process each video in the DataFrame
     for filename in df['Filename']:
-        video_file = os.path.join(base_path, filename)
+        video_file = os.path.join(raw_data_path, filename)
         base_filename = os.path.splitext(os.path.basename(video_file))[0]
 
         # Load the video

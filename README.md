@@ -1,4 +1,4 @@
-
+![logo](https://github.com/user-attachments/assets/e0c59496-ed0c-422a-b978-6c6b640e3207)
 # PROCSTOP: Tu Aliado Contra la Procrastinación
 🖥️ Debido al aumento de tecnologías que nos ofrecen cuantiosos estímulos, la procrastinación por aburrimiento ha incrementado significativamente. Muchas personas no encuentran actividades que les estimulen tanto como, por ejemplo, una red social 📱. Cuando te encuentras en ese momento de indecisión 🤔 y procrastinación 💤, PROCSTOP interviene ofreciendo recomendaciones de actividades personalizadas que se alinean con tus emociones actuales 🌈📈.
 

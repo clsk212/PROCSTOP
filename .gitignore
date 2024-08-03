@@ -3,4 +3,9 @@
 *.png
 *.MOV
 *.mp4
+*.ipynb
+*.csv
+*.doc
+*.docx
+*.dat
 *venv*
